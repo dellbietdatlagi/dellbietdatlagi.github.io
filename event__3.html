@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THÁNG PHIM HẾT HỒN - NHẬN QUÀ BỒN CHỒN</title>
+    <link rel="stylesheet" href="lib/bootstrap-520/css/bootstrap.css" />
+    <link rel="stylesheet" href="style/css/style__event__1.css" />
+    <link rel="stylesheet" href="style/css/css__header_.css" />
+    <link rel="stylesheet" href="/style/css/css__footer.css" />
+    <link rel="stylesheet" href="/lib/themify-icons/themify-icons.css" />
+  </head>
+  <script src="/lib/jquery/jquery-3.6.2.min.js"></script>
+  <script src="/lib/jquery/js.cookie.js"></script>
+  <script src="/style/js/main_js.js"></script>
+
+  <body onload="check_userusing()">
+    <!-- header -->
+    <header style="background-color: #000000">
+      <div class="container" style="position: relative">
+        <div class="row">
+          <div
+            class="logo_header col-sm-12 col-md-12 col-lg-6"
+            onclick="golinkss(`index.html`,`_self`)"
+          ></div>
+          <div class="searchform col-3 d-md-none d-none d-lg-block">
+            <div class="con1 col-12">
+              <div class="con col-12">
+                <input
+                  placeholder="Tìm tên phim, diễn viên..."
+                  class="search-box form-control-sm"
+                  type="text"
+                  name="search"
+                />
+                <i class="ti-search"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="login-btn-header login-btn-user btn btn-outline-light d-none d-lg-block"
+            onclick="golinks(`login_register.html`)"
+          >
+            Đăng nhập
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav style="width: 100%; background-color: #000000">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="menu-icon d-lg-none" onclick="menu(1,'auto',1,setmenu)">
+            <i class="ti-menu" style="font-size: 2rem; color: #fff"></i>
+          </div>
+          <div
+            class="login-btn-nav btn login-btn-user btn-outline-light d-lg-none"
+            onclick="golinks(`login_register.html`)"
+          >
+            Đăng nhập
+          </div>
+          <div
+            class="btn btn-outline-secondary btn-link-nav col-lg-2 d-lg-block d-none"
+            onclick="golinkss(`playingmovie.html`,1)"
+          >
+            Phim
+          </div>
+          <div
+            class="btn btn-outline-secondary btn-link-nav col-2 d-none d-lg-block"
+            onclick="golinkss(`nv_tuyen/index.html`,1)"
+          >
+            Mua vé
+          </div>
+          <div
+            class="btn btn-outline-secondary btn-link-nav col-2 d-none d-lg-block"
+            onclick="golinkss(`blog.html`,1)"
+          >
+            Blog điện ảnh
+          </div>
+          <div
+            class="btn btn-outline-secondary btn-link-nav col-2 d-none d-lg-block"
+            onclick="golinkss(`review.html`,1)"
+          >
+            Bình luận phim
+          </div>
+          <div
+            class="btn btn-outline-secondary btn-link-nav col-2_4 d-none d-lg-block"
+            onclick="golinkss(`event.html`,1)"
+          >
+            Khuyến mãi
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container menu-list-md_sm" style="height: 0; opacity: 0">
+      <div class="sm-menu col-12" style="padding: 15px">
+        <i class="ti-close menu-icon-close" onclick="menu(0,0,0,setmenu)"></i>
+        <div class="con search-box-menu">
+          <input
+            placeholder="Tìm tên phim, diễn viên..."
+            class="search-box form-control-sm"
+            type="text"
+            name="search"
+          />
+          <i class="ti-search"></i>
+        </div>
+        <a href="/playingmovie.html" class="links-menu"> Phim </a>
+        <a href="/nv_tuyen/index.html" class="links-menu"> Mua vé </a>
+        <a href="/blog.html" class="links-menu"> Blog điện ảnh </a>
+        <a href="/review.html" class="links-menu"> Bình luận phim </a>
+        <a href="/event.html" class="links-menu"> Khuyến mãi </a>
+      </div>
+    </div>
+    <!-- /header -->
+    <div class="container" style="margin-bottom: 1rem; margin-top: 1rem">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="tittle-web">
+            <h3>THÁNG PHIM HẾT HỒN - NHẬN QUÀ BỒN CHỒN</h3>
+          </div>
+
+          <div class="web-content">
+            <ol>
+              <li class="main-content">
+                <span>Điều kiện tham gia bốc quà halloween</span>
+                <ul>
+                  <li>Thời hạn: 14.10.2022 - 31.10.2022</li>
+                  <li>
+                    Số lượng quà tặng có hạng, chương trình có kêt kết thúc sớm
+                    hơn dự kiến.
+                  </li>
+                  <li>Không áp dụng giao dịch sử dụng voucher, vé 0đ</li>
+                  <li>
+                    Với phiếu trúng thưởng MovieVoucher, Khách hàng đổi tại quầy
+                    vé ở rạp
+                  </li>
+                  <li>
+                    Trong mọi trường hợp, quyết định của Spacecinema là quyết
+                    định cuối cùng.
+                  </li>
+                </ul>
+              </li>
+              <li class="main-content">
+                <span>Điều kiện sử dụng MovieVoucher</span>
+                <ul>
+                  <li>Hạn sử dụng: 14.10.2022 - 14.12.2022 (3 Tháng)</li>
+                  <li>Có thể sử dụng trong dịp lễ, Tết</li>
+                  <li>Phiếu không có giá trị khi bị xóa, rách, hư hỏng</li>
+                  <li>Phiếu không có giá trị quy đổi tiền mặt</li>
+                  <li>Không áp dụng cho suất chiếu sớm, suất chiếu đặc biệt</li>
+                  <li>
+                    trong mọi trường hợp, quyết định của Spacecinema là quyết
+                    định cuối cùng
+                  </li>
+                </ul>
+              </li>
+              <li class="main-content">
+                <span>Liên hệ và hỗ trợ khiếu nại</span>
+                <ul>
+                  <li>Hotline SPACECINEMA: 0987654321</li>
+                  <li>Tất cả các ngày trong tuần</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div class="d-none d-sm-block">
+            <div class="recommended">
+              <div class="recommended-tittle">
+                <a href="#"><span>KHUYẾN </span>MÃI KHÁC</a>
+              </div>
+
+              <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 phim">
+                  <div class="event">
+                    <div class="event-element">
+                      <div class="event-choice">
+                        <a href="In-developing.html"
+                          ><img
+                            src="resouces/img/back2shool-digital.jpg"
+                            alt="thumbnail"
+                            class="event-img"
+                        /></a>
+                        <div class="event-review">
+                          <h2>SPACE CINEMA - BACK TO SCHOOL</h2>
+                        </div>
+                        <div class="event-middle">
+                          <div class="event-info">
+                            <a href="In-developing.html">CHI TIẾT</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 phim">
+                  <div class="event">
+                    <div class="event-element">
+                      <div class="event-choice">
+                        <a href="In-developing.html"
+                          ><img
+                            src="resouces/img/glx-galaween.jpg"
+                            alt="thumbnail"
+                            class="event-img"
+                        /></a>
+                        <div class="event-review">
+                          <h2>THÁNG PHIM HẾT HỒN - NHẬN QUÀ BỒN CHỒN</h2>
+                        </div>
+                        <div class="event-middle">
+                          <div class="event-info">
+                            <a href="In-developing.html">CHI TIẾT</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 phim">
+                  <div class="event">
+                    <div class="event-element">
+                      <div class="event-choice">
+                        <a href="In-developing.html"
+                          ><img
+                            src="resouces/img/glx-shopee.jpg"
+                            alt="thumbnail"
+                            class="event-img"
+                        /></a>
+                        <div class="event-review">
+                          <h2>VOUCHER GIẢM LÊN ĐẾN 50K!</h2>
+                        </div>
+                        <div class="event-middle">
+                          <div class="event-info">
+                            <a href="In-developing.html">CHI TIẾT</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 phim special">
+                  <div class="event">
+                    <div class="event-element">
+                      <div class="event-choice">
+                        <a href="In-developing.html"
+                          ><img
+                            src="resouces/img/glx-zalo-pay.jpg"
+                            alt="thumbnail"
+                            class="event-img"
+                        /></a>
+                        <div class="event-review">
+                          <h2>ZALOPAY - MÙA NÀO CŨNG KHAO</h2>
+                        </div>
+                        <div class="event-middle">
+                          <div class="event-info">
+                            <a href="In-developing.html">CHI TIẾT</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 suggestion-all">
+          <div class="d-none d-md-block">
+            <h3><span>Phim</span> của tháng</h3>
+            <div class="suggestion">
+              <div class="suggestion-element">
+                <div class="suggestion-choice">
+                  <a href="In-developing.html"
+                    ><img
+                      src="resouces/img/suggestion-avarta.jpg"
+                      alt="thumbnail"
+                      class="suggestion-img"
+                  /></a>
+                  <div class="middle">
+                    <div class="muave">
+                      <a href="In-developing.html">Mua vé</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="suggestion-tittle">
+                  <div class="real-name" style="margin-top: 5px">
+                    <h5>AVATAR</h5>
+                  </div>
+                  <div class="vn-name">
+                    <h5
+                      style="
+                        font-size: 14px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: rgb(146, 159, 170);
+                        margin-bottom: 10px;
+                      "
+                    >
+                      AVATAR
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="suggestion">
+              <div class="suggestion-element">
+                <div class="suggestion-choice">
+                  <a href="jeeper.html"
+                    ><img
+                      src="resouces/img/suggestion-jeepers.jpg"
+                      alt="thumbnail"
+                      class="suggestion-img"
+                  /></a>
+                  <div class="middle">
+                    <div class="muave">
+                      <a href="jeeper.html">Mua vé</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="suggestion-tittle">
+                  <div class="real-name" style="margin-top: 5px">
+                    <h5>AJEEPERS CREEPERS: REBORN</h5>
+                  </div>
+                  <div class="vn-name">
+                    <h5
+                      style="
+                        font-size: 14px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: rgb(146, 159, 170);
+                        margin-bottom: 10px;
+                      "
+                    >
+                      Kẻ săn lùng sợ hãi: Tái sinh
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="suggestion">
+              <div class="suggestion-element">
+                <div class="suggestion-choice">
+                  <a href="destiny.html"
+                    ><img
+                      src="resouces/img/suggestion-Love-Destiny-2.jpg"
+                      alt="thumbnail"
+                      class="suggestion-img"
+                  /></a>
+                  <div class="middle">
+                    <div class="muave">
+                      <a href="destiny.html">Mua vé</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="suggestion-tittle">
+                  <div class="real-name" style="margin-top: 5px">
+                    <h5>LOVE DESTINY THE MOVIE</h5>
+                  </div>
+                  <div class="vn-name">
+                    <h5
+                      style="
+                        font-size: 14px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: rgb(146, 159, 170);
+                        margin-bottom: 10px;
+                      "
+                    >
+                      Ngược Dòng Thời Gian Để Yêu Anh
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="xemthem">
+              <a href="#">XEM THÊM</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #000000d6; width: 100%">
+      <div class="container p-3">
+        <div class="row justify-content-between">
+          <div class="footer-list col-lg-3 col-6">
+            <div class="title-footer">
+              <div class="up-line-ttle d-inline-block"></div>
+              <p class="title">Giới Thiệu</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>VỀ CHÚNG TÔI</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>THOẢ THUẬN SỬ DỤNG</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>QUY CHẾ HOẠT ĐỘNG</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>CHÍNH SÁCH BẢO MẬT</p>
+            </div>
+          </div>
+          <div class="footer-list col-lg-3 col-6">
+            <div class="title-footer">
+              <div class="up-line-ttle d-inline-block"></div>
+              <p class="title">GÓC ĐIỆN ẢNH</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>THỂ LOẠI PHIM</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>BLOG ĐIỆN ẢNH</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>BLOG ĐIỆN ẢNH</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>PHIM HAY THÁNG</p>
+            </div>
+          </div>
+          <div class="footer-list col-lg-3 col-6">
+            <div class="title-footer">
+              <div class="up-line-ttle d-inline-block"></div>
+              <p class="title">HỖ TRỢ</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>GÓP Ý</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>SALE & SERVICES</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>RẠP / GIÁ VÉ</p>
+            </div>
+            <div class="footer-item">
+              <i class="ti-angle-double-right"></i>
+              <p>TUYỂN DỤNG</p>
+            </div>
+          </div>
+          <div class="footer-list col-lg-3 col-6">
+            <div class="connect">
+              <div class="title-footer">
+                <div class="up-line-ttle d-inline-block"></div>
+                <p class="title">KẾT NỐI SPACE CINEMA</p>
+              </div>
+              <i
+                class="ti-facebook icon-connect"
+                onclick="golinks(`https://www.facebook.com/`)"
+              ></i>
+              <i
+                class="ti-youtube icon-connect"
+                onclick="golinks(`https://www.youtube.com/`)"
+              ></i>
+              <i
+                class="ti-instagram icon-connect"
+                onclick="golinks(`https://www.instagram.com/`)"
+              ></i>
+            </div>
+            <div class="download">
+              <div class="title-footer">
+                <div class="up-line-ttle d-inline-block"></div>
+                <p class="title">DOWNLOAD APP</p>
+              </div>
+              <div class="icon-download">
+                <div
+                  class="icon-indow icon-gg"
+                  onclick="golinks(`https://play.google.com/`)"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.8rem"
+                    height="1.8rem"
+                    fill="currentColor"
+                    class="bi bi-google-play"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                    />
+                  </svg>
+                </div>
+
+                <div
+                  class="icon-indow icon-app"
+                  onclick="golinks(`https://www.apple.com/app-store/`)"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.99rem"
+                    height="1.7rem"
+                    fill="currentColor"
+                    class="bi bi-apple"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                    />
+                    <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
